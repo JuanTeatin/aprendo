@@ -162,4 +162,4 @@ while z>1:
       elif(opcion2==2):
           z2=0
       else:
-          print("hola ")
+          print("Elija opcion valida ")
