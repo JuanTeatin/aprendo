@@ -55,27 +55,53 @@ def cursos():
 #Diccionario
 
 def Diccionario():
-    Cursos = {
-        
-    "║ Html": "Curso de introducción al lenguaje de marcado HTML para la creación de páginas web.                                                      ║",
-    "║ Python": "Curso de programación en Python, un lenguaje versátil y fácil de aprender.                                                            ║",
-    "║ Java": "Curso de programación en Java, un lenguaje utilizado en aplicaciones empresariales y Android.                                           ║",
-    "║ C#": "Curso de programación en C#, un lenguaje orientado a objetos para el desarrollo de aplicaciones .NET.                                     ║",
-    "║ Javascript": "Curso de programación en Javascript, utilizado para la creación de interacciones dinámicas en páginas web.                        ║",
-    "║ Introduccion a la programacion": "Curso introductorio a la programación, donde se cubren los conceptos básicos y fundamentos.                   ║",
-    "║ Desarrollo web": "Curso de desarrollo web abarcando HTML, CSS y JavaScript, junto con frameworks y herramientas populares.                      ║",
-    "║ Seguridad informatica": "Curso de seguridad informática, donde se enseñan técnicas para proteger sistemas y redes contra amenazas cibernéticas. ║",
-    "║ Desarrollo de videojuegos": "Curso de desarrollo de videojuegos utilizando motores como Unity o Unreal Engine.                                  ║",
-    "║ Base de datos": "Curso de bases de datos, abarcando conceptos y tecnologías como MySQL, PostgreSQL o MongoDB.                                   ║",
-    "║ Desarrollo de aplicaciones moviles": "Curso de desarrollo de aplicaciones móviles, enfocado en Android (Java o Kotlin) o iOS (Swift).           ║",
-    "║ Programacion orientada a objetos": "Curso de programación orientada a objetos, utilizando lenguajes como Java o C++.                            ║",
-    "║ Ciencia de datos y analisis": "Curso de ciencia de datos y análisis, utilizando herramientas y técnicas para procesar y analizar datos.         ║"
-    }
+    print("╔════════════════════════════════════════════╗")
+    print("║              CURSOS APRENDO                ║")
+    print("║                                            ║")
+    print("║ 1-  Html                                   ║")
+    print("║ 2-  Python                                 ║")
+    print("║ 3-  JAVA                                   ║")
+    print("║ 4-  C#                                     ║")
+    print("║ 5-  JavaScript                             ║")
+    print("║ 6-  Introducción a la programación         ║")
+    print("║ 7-  Desarrollo web                         ║")
+    print("║ 8-  Seguridad informatica                  ║")
+    print("║ 9-  Desarrollo de videojuegos              ║")
+    print("║ 10- Base de datos                          ║")
+    print("║ 11- Desarrollo de aplicaciones moviles     ║")
+    print("║ 12- Programación orientada a objetos       ║")
+    print("║ 13- Ciencia de datos y analisis            ║")
+    print("║                                            ║")
+    print("╚════════════════════════════════════════════╝")
 
-    print("¡Bienvenido! Estos son los cursos disponibles y su descripción:")
+    opcion=input("¡Bienvenido! Estos son los cursos disponibles elija su opción")
 
-    for curso, descripcion in Cursos.items():
-        print(f"{curso}: {descripcion}")
+    if opcion==1: 
+        print("Curso de introducción al lenguaje de marcado HTML para la creación de páginas web")
+    elif opcion==2:
+        print("Curso de programación en Python, un lenguaje versátil y fácil de aprender")
+    elif opcion==3
+    print("Curso de programación en Java, un lenguaje utilizado en aplicaciones empresariales y Android")
+    elif opcion==4
+    print("Curso de programación en C#, un lenguaje orientado a objetos para el desarrollo de aplicaciones .NET")
+    elif opcion==5
+    print("Curso de programación en Javascript, utilizado para la creación de interacciones dinámicas en páginas web")
+    elif opcion==6
+    print("Curso introductorio a la programación, donde se cubren los conceptos básicos y fundamentos")
+    elif opcion==7
+    print("Curso de desarrollo web abarcando HTML, CSS y JavaScript, junto con frameworks y herramientas populares")
+    elif opcion==8
+    print("Curso de seguridad informática, donde se enseñan técnicas para proteger sistemas y redes contra amenazas cibernéticas")
+    elif opcion==9
+    print("Curso de desarrollo de videojuegos utilizando motores como Unity o Unreal Engine")
+    elif opcion==10
+    print("Curso de bases de datos, abarcando conceptos y tecnologías como MySQL, PostgreSQL o MongoDB")
+    elif opcion==11
+    print("Curso de desarrollo de aplicaciones móviles, enfocado en Android (Java o Kotlin) o iOS (Swift)")
+    elif opcion==12
+    print("Curso de programación orientada a objetos, utilizando lenguajes como Java o C++")
+    elif opcion==13
+    print("Curso de ciencia de datos y análisis, utilizando herramientas y técnicas para procesar y analizar datos")
 
 
 #IniciarSesion
@@ -162,4 +188,4 @@ while z>1:
       elif(opcion2==2):
           z2=0
       else:
-          print("Elija opcion valida ")
+          print("Elija una opción valida ")
