@@ -189,3 +189,6 @@ while z>1:
           z2=0
       else:
           print("Elija una opción valida ")
+
+
+Cyka=print("hola pribiet")
